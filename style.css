@@ -8,6 +8,7 @@
 
 h1 {
 	color: #4682b4;
+	background-color: #b0c4de; 
 	width: 800px;
 	text-align: center;
 }
@@ -23,4 +24,12 @@ img {
 	flex-direction: row;
 	align-items: center;
 }
+
+.contents {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-evenly;
+	border-radius: 1px solid #4682b4;
+}
+
 
