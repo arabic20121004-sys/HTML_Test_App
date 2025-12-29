@@ -21,6 +21,7 @@ img {
 
 .main {
 	display: flex;
+	width: 800px;
 	flex-direction: row;
 	align-items: center;
 }
